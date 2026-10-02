@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Raunak's Python game development portfolio. Explore original games and projects.">
+<title>Raunak | Python Projects</title>
+<style>
+:root{--bg:#0b1020;--panel:#141c31;--text:#edf2ff;--muted:#a8b4ce;--accent:#7c9cff;--line:#26324d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 15% 0%,#1a2850 0,transparent 42%),var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
+.wrap{width:min(1100px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0}.brand{font-weight:800;letter-spacing:.08em}.nav a{color:var(--muted);text-decoration:none;margin-left:20px}.nav a:hover,.link:hover{color:white}
+.hero{padding:70px 0 55px}.eyebrow{color:#9db4ff;text-transform:uppercase;letter-spacing:.15em;font-size:.8rem;font-weight:700}.hero h1{font-size:clamp(2.6rem,7vw,5.3rem);line-height:1.02;margin:12px 0 20px;max-width:850px}.hero p{color:var(--muted);max-width:650px;font-size:1.1rem}.btn{display:inline-block;background:var(--accent);color:#091126;text-decoration:none;font-weight:750;padding:11px 18px;border-radius:10px;margin-top:12px}.section{padding:36px 0 65px}.section h2{font-size:2rem;margin:0 0 8px}.sub{color:var(--muted);margin:0 0 24px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}.card{background:linear-gradient(145deg,#18233b,#11192b);border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;min-height:270px;box-shadow:0 12px 35px #0002}.icon{font-size:2.2rem}.tag{display:inline-block;color:#c3d0ff;background:#27365b;border-radius:99px;padding:3px 10px;font-size:.78rem;margin:8px 0}.card h3{font-size:1.3rem;margin:6px 0}.card p{color:var(--muted);margin:0 0 18px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:auto}.link{color:#b6c7ff;text-decoration:none;font-weight:650}.link.primary{background:#2b3c68;padding:8px 12px;border-radius:8px}.about{border-top:1px solid var(--line);padding:28px 0 45px;color:var(--muted)}footer{border-top:1px solid var(--line);padding:20px 0 35px;color:var(--muted);font-size:.9rem}
+@media(max-width:560px){.nav{align-items:flex-start;gap:8px;flex-direction:column}.nav a{margin:0 14px 0 0}.hero{padding-top:45px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="nav"><div class="brand">RAUNAK.DEV</div><nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="#about">About</a></nav></header>
+<main>
+<section class="hero"><div class="eyebrow">Student developer · Python & games</div><h1>Ideas turned into playable projects.</h1><p>Hi, I'm Raunak. I enjoy building games and experimenting with code. This portfolio is where I share my projects, the source behind them, and what I'm learning along the way.</p><a class="btn" href="#projects">Explore my projects ↓</a></section>
+<section class="section" id="projects"><h2>Featured projects</h2><p class="sub">Explore the games and tools I've been working on. Source files are available to view or download.</p>
+<div class="grid">
+<article class="card"><div class="icon" aria-hidden="true">🪙</div><span class="tag">Python · Game</span><h3>Coin Rush</h3><p>A coin-collecting game built with Python. Open the source to explore its mechanics and implementation.</p><div class="actions"><a class="link primary" href="source/coin%20rush.py" download>Download Python file</a><a class="link" href="source/coin%20rush.py">View source ↗</a></div></article>
+<article class="card"><div class="icon" aria-hidden="true">🧱</div><span class="tag">Pygame · Puzzle</span><h3>Deluxe Tetris</h3><p>A feature-rich block-stacking puzzle with rotations, a next-piece queue, hold, ghost piece, scoring, and levels.</p><div class="actions"><a class="link primary" href="source/Deluxe_tetris.py" download>Download Python file</a><a class="link" href="source/Deluxe_tetris.py">View source ↗</a></div></article>
+<article class="card"><div class="icon" aria-hidden="true">🚀</div><span class="tag">Pygame · Arcade</span><h3>Galactic Strike</h3><p>A space shooter featuring enemy fighters, tanks, kamikaze ships, asteroids, shields, upgrades, and particle effects.</p><div class="actions"><a class="link primary" href="source/spaceship_game.py" download>Download Python file</a><a class="link" href="source/spaceship_game.py">View source ↗</a></div></article>
+<article class="card"><div class="icon" aria-hidden="true">♟️</div><span class="tag">Python · Chess</span><h3>Unified Chess Hub</h3><p>A chess suite with multiple engine modes, including Three-Check, Chess960, and a CheetahChess mode.</p><div class="actions"><a class="link primary" href="source/unified_chess_hub.py" download>Download Python file</a><a class="link" href="source/unified_chess_hub.py">View source ↗</a></div></article>
+</div>
+</section>
+<section class="about" id="about"><h2>About this portfolio</h2><p>I'm learning by building, testing, and improving projects. More experiments and updates will be added over time.</p><p><strong>Note:</strong> These are Python desktop programs. Their source files can be downloaded here; running them requires Python and any libraries listed in each project. Browser-playable versions can be added separately after conversion and testing.</p></section>
+
+      <article class="project-card">
+        <div class="project-icon">🟡</div>
+        <h2>Vector-Physics Pac-Man</h2>
+        <p>A neon arcade maze game featuring momentum-based movement, ghost AI, collectible pellets, synthesized retro sounds, and a score system.</p>
+        <div class="project-links">
+          <a href="source/pacman.py" download>Download Python Code</a>
+        </div>
+      </article>
+</main>
+<footer>© <span id="year"></span> Raunak · Built with HTML and CSS · Hosted on GitHub Pages</footer>
+</div>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
