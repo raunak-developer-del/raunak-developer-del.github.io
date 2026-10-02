@@ -1,20 +1,39 @@
-# Raunak's Python Portfolio
+# Raunak's Python Games Arcade
 
-## Publish your portfolio with GitHub Pages
+Welcome to my game development portfolio! This website brings together five games inspired by my Python projects, adapted to run directly in a web browser.
 
-1. Sign in to [GitHub](https://github.com/) or create an account.
-2. Create a **public** repository named exactly `YOUR-USERNAME.github.io` (replace `YOUR-USERNAME` with your GitHub username).
-3. Unzip this portfolio bundle on your computer.
-4. Upload **all the files and folders inside** the unzipped folder to the repository's top level. Keep `index.html` at the top level and keep the `source` folder intact.
-5. In the repository, open **Settings → Pages**.
-6. Under **Build and deployment**, choose **Deploy from a branch**.
-7. Select branch **main** and folder **/(root)**, then click **Save**.
-8. Wait a few minutes and open `https://YOUR-USERNAME.github.io/`.
+🌐 **Play the games:** https://raunak-developer-del.github.io/
 
-## About the games
+## Games
 
-The portfolio provides project descriptions and downloadable Python source files. These `.py` files do not run directly inside a web browser. To play them, download the source and run it on a computer with Python and the required libraries installed. For example, many of the games use Pygame; Pac-Man also imports NumPy.
+1. **Coin Rush** — Collect coins, avoid hazards, and try to beat your score.
+2. **Deluxe Tetris** — Fit falling blocks together to clear lines.
+3. **Galactic Strike** — Pilot a spaceship and take on incoming threats.
+4. **Chess Playground** — Play a two-player chess-style game on the same device. This is a simplified version and does not enforce every official chess rule.
+5. **Vector-Physics Pac-Man** — Navigate a maze, collect pellets, and avoid the ghost.
 
-## Updating the portfolio
+## How to Play
 
-Whenever you add or change a project, update `index.html` and upload the changed files to the same GitHub repository. Keep the source filenames and relative links consistent.
+1. Open the [Arcade Website](https://raunak-developer-del.github.io/).
+2. Choose a game and select **Play**.
+3. Follow the on-screen instructions and controls.
+4. On supported games, use the on-screen buttons when playing on a touch device.
+
+No separate game download is needed to play the browser versions.
+
+## About This Project
+
+This project is part of my journey learning programming and game development. The browser games are JavaScript adaptations inspired by my Python games; they are not exact ports of every feature in the original Python versions.
+
+## Technologies
+
+- HTML
+- CSS
+- JavaScript
+- Canvas
+
+## Author
+
+**Raunak Nayak**
+
+GitHub: [@raunak-developer-del](https://github.com/raunak-developer-del)
